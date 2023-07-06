@@ -3,7 +3,6 @@ import { extendTheme, theme as base, withDefaultColorScheme, withDefaultVariant 
 
 const customTheme = extendTheme({
     colors: {
-        // base --> https://smart-swatch.netlify.app/#849fc1
         primary: {
           50: '#fbf4e4',
           100: '#e8ddc8',
@@ -16,7 +15,6 @@ const customTheme = extendTheme({
           800: '#342b16',
           900: '#150d00',
         },
-        // base --> https://smart-swatch.netlify.app/#e0bbca
         secondary: {
           50: '#f2f2f2',
           100: '#d9d9d9',
@@ -29,7 +27,6 @@ const customTheme = extendTheme({
           800: '#262626',
           900: '#0d0d0d',
         },
-        // base --> https://smart-swatch.netlify.app/#b84ba7
         tertiary: {
           50: '#ffe8ec',
           100: '#f2c2c7',
@@ -42,7 +39,6 @@ const customTheme = extendTheme({
           800: '#3e0f15',
           900: '#1c0204',
         },
-        // base --> https://smart-swatch.netlify.app/#8947da
         quaternary: {
           50: '#e8e8ff',
           100: '#bebcf8',
@@ -58,7 +54,7 @@ const customTheme = extendTheme({
     },
     fonts: {
         // All headings will use josefin fonts but fallback to default theme fonts 
-        heading: `Josefin Sans, ${base.fonts.heading}`,
+        heading: `Exo 2, ${base.fonts.body}`,
         // All body text will use this font but fallback to default theme fonts 
         body: `Open Sans, ${base.fonts.body}`
     },
