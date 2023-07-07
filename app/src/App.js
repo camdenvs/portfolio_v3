@@ -5,12 +5,28 @@ import { Box } from '@chakra-ui/react'
 
 import Header from './components/Header'
 import Footer from './components/Footer';
+import Home from './pages/Home';
 
 function App() {
   return (
     <Router>
-      <Box display={'flex'} flexDirection={'column'} justifyContent={'space-between'} minH={'100vh'}>
       <Header />
+      <Box display={'flex'} flexDirection={'column'} justifyContent={'space-between'} minH={'100vh'} overflowX={'hidden'}>
+        <Routes>
+          <Route 
+            path='/'
+            element={<Home />}
+          />
+          <Route 
+            path='/portfolio'
+            element={<Home />}
+          />
+          <Route 
+            path='/resume'
+            element={<Home />}
+          />
+          <Route path='*' element={<Navigate to='/'/>} />
+        </Routes>
       <Footer />
       </Box>
     </Router>
