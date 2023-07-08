@@ -12,13 +12,13 @@ const Header = () => {
                     <Show above={'md'}>
                         <Box>
                             <UnorderedList styleType={'none'} display={'flex'} alignContent={'center'}>
-                                <ListItem as={Link} to={'/'} marginX={'20px'}>
+                                <ListItem as={Link} to={'/portfolio_v3/'} marginX={'20px'}>
                                     <Text fontWeight={500} fontSize={'24px'} _hover={{ borderBottom: '2px' }}>Home</Text>
                                 </ListItem>
-                                <ListItem as={Link} to={'/portfolio'} marginX={'20px'}>
+                                <ListItem as={Link} to={'/portfolio_v3/portfolio'} marginX={'20px'}>
                                     <Text fontWeight={500} fontSize={'24px'} _hover={{ borderBottom: '2px' }}>Portfolio</Text>
                                 </ListItem>
-                                <ListItem as={Link} to={'/resume'} marginX={'20px'}>
+                                <ListItem as={Link} to={'/portfolio_v3/resume'} marginX={'20px'}>
                                     <Text fontWeight={500} fontSize={'24px'} _hover={{ borderBottom: '2px' }}>Resume</Text>
                                 </ListItem>
                             </UnorderedList>
@@ -30,9 +30,9 @@ const Header = () => {
                                 <FaBars size={'20px'} />
                             </MenuButton>
                             <MenuList zIndex={999}>
-                                <MenuItem as={Link} to='portfolio_v3/'>Home</MenuItem>
-                                <MenuItem as={Link} to='portfolio_v3/portfolio'>Portfolio</MenuItem>
-                                <MenuItem as={Link} to='portfolio_v3/resume'>Resume</MenuItem>
+                                <MenuItem as={Link} to='/portfolio_v3/'>Home</MenuItem>
+                                <MenuItem as={Link} to='/portfolio_v3/portfolio'>Portfolio</MenuItem>
+                                <MenuItem as={Link} to='/portfolio_v3/resume'>Resume</MenuItem>
                             </MenuList>
                         </Menu>
                     </Hide>
