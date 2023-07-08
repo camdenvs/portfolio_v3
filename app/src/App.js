@@ -7,6 +7,7 @@ import Header from './components/Header'
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
 
 function App() {
   return (
@@ -24,7 +25,7 @@ function App() {
           />
           <Route 
             path='/resume'
-            element={<Home />}
+            element={<Resume />}
           />
           <Route path='*' element={<Navigate to='/'/>} />
         </Routes>

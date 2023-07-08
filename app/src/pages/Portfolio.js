@@ -8,13 +8,13 @@ const Portfolio = () => {
 
     return (
         <>
-            <Heading fontSize={'74px'} mx={'auto'} mt={'200px'}>Wanna see what I've done?</Heading>
+            <Heading fontSize={{base: '54px', lg: '74px'}} mx={{base: '15px', md: 'auto'}} mt={'200px'}>Wanna see what I've built?</Heading>
             <Text display={'flex'} fontSize={'18px'} opacity={'80%'} mx={'auto'} my='100px'>
                 <FaArrowDown />Psst... It's down there <FaArrowDown />
             </Text>
             {Projects.map((project, index) => (
                 (index % 2 === 0) ? (
-                    <Box key={project.name} width={'80%'} mx='auto' display={'flex'} justifyContent={'space-evenly'} my={'30px'} bgColor={'#b39967'} padding={'20px'} flexDirection={{base: 'column', md: 'row'}}>
+                    <Box key={project.name} width={'80%'} mx='auto' display={'flex'} justifyContent={'space-evenly'} my={'30px'} bgColor={'#b39967'} borderRadius={'15px'} padding={'20px'} flexDirection={{base: 'column', md: 'row'}}>
                         <Box display={{base: 'flex', md: 'auto'}} justifyContent={{base: 'end', md: 'auto'}}><Link to={project.repoUrl}><FaGithub size='32px' /></Link></Box>
                         <Link to={project.deployedUrl}>
                         <Box display={'flex'} justifyContent={'space-evenly'} flexDirection={{base: 'column', md: 'row'}}>
@@ -28,7 +28,7 @@ const Portfolio = () => {
                         </Link>
                     </Box>
                 ) : (
-                    <Box key={project.name} width={'80%'} mx='auto' display={'flex'} justifyContent={'space-evenly'} my={'30px'} bgColor={'#d6c6a9'} padding={'20px'} flexDirection={{base: 'column', md: 'row'}}>
+                    <Box key={project.name} width={'80%'} mx='auto' display={'flex'} justifyContent={'space-evenly'} my={'30px'} bgColor={'#d6c6a9'} borderRadius={'15px'} padding={'20px'} flexDirection={{base: 'column', md: 'row'}}>
                         <Link to={project.deployedUrl}>
                             <Box display={'flex'} justifyContent={'space-evenly'} flexDirection={{base: 'column', md: 'row'}}>
                                 <Image src={`images/${project.image}`} width={{md: '45%'}} />
