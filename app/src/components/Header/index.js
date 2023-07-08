@@ -30,9 +30,9 @@ const Header = () => {
                                 <FaBars size={'20px'} />
                             </MenuButton>
                             <MenuList zIndex={999}>
-                                <MenuItem as={Link} to='/'>Home</MenuItem>
-                                <MenuItem as={Link} to='/portfolio'>Portfolio</MenuItem>
-                                <MenuItem as={Link} to='/resume'>Resume</MenuItem>
+                                <MenuItem as={Link} to='portfolio_v3/'>Home</MenuItem>
+                                <MenuItem as={Link} to='portfolio_v3/portfolio'>Portfolio</MenuItem>
+                                <MenuItem as={Link} to='portfolio_v3/resume'>Resume</MenuItem>
                             </MenuList>
                         </Menu>
                     </Hide>
