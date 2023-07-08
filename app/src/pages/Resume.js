@@ -6,13 +6,13 @@ const Resume = () => {
 
     return (
         <Box>
-            <Text ml='100px' fontSize={'20px'}>Want a copy? Click <a href='/files/CamdenVanSciver_Resume.pdf' download><Text display={'inline'} textDecoration='underline'>here</Text></a> to download.</Text>
+            <Text ml={{base: '15px', sm: '100px'}} fontSize={'20px'}>Want a copy? Click <a href='/files/CamdenVanSciver_Resume.pdf' download><Text display={'inline'} textDecoration='underline'>here</Text></a> to download.</Text>
             <Center fontSize={'20px'}>Camden Van Sciver</Center>
             <Center>camdenvs02@gmail.com | (480)-826-2147 | Mesa, Arizona</Center>
-            <Center><Link to={'https://www.linkedin.com/in/camden-van-sciver/'}><Text display={'inline'} textDecoration='underline' mx={'5px'}>LinkedIn</Text></Link> | <Link to={'https://github.com/camdenvs'}><Text display={'inline'} textDecoration='underline' mx={'5px'}>GitHub</Text></Link>  | <Link to={'https://camdenvs.github.io/portfolio_v3/'}><Text display={'inline'} textDecoration='underline' mx={'5px'}>Portfolio</Text></Link> </Center>
-            <Box mx={'100px'}>
+            <Center><Link to={'https://www.linkedin.com/in/camden-van-sciver/'}><Text display={{base: 'block', small: 'inline'}} textDecoration='underline' mx={'5px'}>LinkedIn</Text></Link> | <Link to={'https://github.com/camdenvs'}><Text display={'inline'} textDecoration='underline' mx={'5px'}>GitHub</Text></Link>  | <Link to={'https://camdenvs.github.io/portfolio_v3/'}><Text display={'inline'} textDecoration='underline' mx={'5px'}>Portfolio</Text></Link> </Center>
+            <Box mx={{base: '15px', sm: '100px'}}>
                 <Text fontSize={'20px'} fontWeight={'700'} mt={'10px'}>Career Summary</Text>
-                <Text>My first programming language was Python, which I had taught myself. Working with Python to make some personal projects is what gave me an understanding of computer logic and made me comfortable with coding. After learning Python for about a year as a hobby, I decided to take a full-stack web development course through the University of Arizona. I completed the course 6 months later at the age of 20 with an A+. Since then I’ve made it a goal to make Github contributions every day on personal projects and work for clients.</Text>
+                <Text>My first programming language was Python, which I had taught myself. Working with Python to make some personal projects is what gave me an understanding of computer logic and made me comfortable with coding. After learning Python for about a year as a hobby, I decided to take a full-stack web development course through the University of Arizona. I completed the course 6 months later at the age of 20 with an A+. Since then I've made it a goal to make Github contributions every day on personal projects and work for clients.</Text>
                 <Text fontSize={'20px'} fontWeight={'700'} mt={'10px'}>Technical Skills</Text>
                 <Text>Frontend: HTML5, CSS, JQuery, Javascript, Bootstrap, AJAX, XML</Text>
                 <Text>Backend: MySQL, MongoDB, Express, ReactJS, Node, Handlebars, Python</Text>

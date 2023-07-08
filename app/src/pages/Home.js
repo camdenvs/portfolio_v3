@@ -18,9 +18,9 @@ const Home = () => {
 
     return (
         <>
-        <Box width={'80%'} mx={'auto'} mt={'100px'} marginBottom={'-100px'}>
-            <Heading position='relative' fontSize={{base: '54px', md: '82px'}} zIndex={'2'}>I'm a Full-Stack Developer, constructing beautiful internet homes for all of your needs.</Heading>
-            <Box overflowX={'hidden'} position='relative' top='-200px' right={{base: '-30%', md: '-50%'}} zIndex={'1'}><FaHouseChimney size={'500px'} color={'#8b2733'}/></Box>
+        <Box width={{base: '95%', sm: '80%'}} mx={'auto'} mt={'100px'} marginBottom={'-100px'}>
+            <Heading position='relative' fontSize={{base: '54px', md: '82px'}} zIndex={'2'}>I'm a Full-Stack Developer, building beautiful internet homes for all of your needs.</Heading>
+            <Box overflowX={'hidden'} position='relative' top='-200px' right={{base: '-25%', md: '-50%'}} zIndex={'1'} fontSize={{base: '350px', sm: '500px'}}><FaHouseChimney color={'#8b2733'}/></Box>
         </Box>
         <Flex mb={'50px'} justifyContent={'center'} flexDirection={{base: 'column', md: 'row'}}>
             <Text fontSize={'18px'} opacity={'80%'} width={{base: '80%', md: '30%'}} mx={{base: 'auto', md: 'none'}} mr={{md: '50px'}} mb={{base: '15px', md: 'none'}}>
