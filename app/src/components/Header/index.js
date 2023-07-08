@@ -26,7 +26,7 @@ const Header = () => {
                     </Show>
                     <Hide above='md'>
                         <Menu pos='fixed' top='10px' left={'15px'} color={'#212C42'}>
-                            <MenuButton pos='fixed' top='5vh' left={'15px'} color={'#212C42'}>
+                            <MenuButton pos='fixed' top='5vh' left={'15px'} padding={'5px'} borderRadius={'50%'} bgColor={'#8b2733'} color={'#212C42'} zIndex={999}>
                                 <FaBars size={'20px'} />
                             </MenuButton>
                             <MenuList zIndex={999}>
