@@ -8,7 +8,7 @@ const customTheme = extendTheme({
         bg: '#c4b088'
       },
       a: {
-        transition: '0.5s ease-in',
+        transition: '0.3s ease-in',
         _hover: {
           color: '#8b2733',
         }
