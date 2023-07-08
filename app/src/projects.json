@@ -1,0 +1,26 @@
+[
+    {
+        "name": "CyberFrog Shop",
+        "image": "CFS_screenshot.png",
+        "description": "CyberFrog Shop is an ecommerce website I built for All CAPS Comics. It features a Home page with a slideshow for recent promotions of campaigns and products, a Store page where users can browse and purchase products listed by the owner, and a Campaign page where the owner can add campaigns.",
+        "tech": "MERN - GraphQL - Stripe.js",
+        "deployedUrl": "https://cyberfrogshop.com/",
+        "repoUrl": "https://github.com/camdenvs/comic-campaign"
+    },
+    {
+        "name": "Ocean Driven",
+        "image": "OD_screenshot.png",
+        "description": "Ocean Driven is boat booking website that I built with a team of 3 other developers. It was inspired by a team members friend who owns a yacht rental service and needed a website to run his business on. It's like Airbnb for boats!",
+        "tech": "MERN - GraphQL - Stripe.js",
+        "deployedUrl": "https://ocean-driven.herokuapp.com/",
+        "repoUrl": "https://github.com/mayamckinney/ocean-driven"
+    },
+    {
+        "name": "Spoon-Fed Reviews",
+        "image": "SFR_screenshot.png",
+        "description": "Spoon-Fed Reviews is a social media website built around posting and commenting on food recipes. I built it with 2 other developers as a class project.",
+        "tech": "MySQL - Express.js - Node.js - Handlebars.js",
+        "deployedUrl": "https://spoon-fed-reviews.herokuapp.com/",
+        "repoUrl": "https://github.com/camdenvs/spoon-fed-reviews"
+    }
+]

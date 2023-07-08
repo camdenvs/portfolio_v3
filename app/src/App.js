@@ -6,6 +6,7 @@ import { Box } from '@chakra-ui/react'
 import Header from './components/Header'
 import Footer from './components/Footer';
 import Home from './pages/Home';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           />
           <Route 
             path='/portfolio'
-            element={<Home />}
+            element={<Portfolio />}
           />
           <Route 
             path='/resume'
