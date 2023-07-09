@@ -19,12 +19,12 @@ const Home = () => {
     return (
         <>
         <Box width={{base: '95%', sm: '80%'}} mx={'auto'} mt={'100px'} marginBottom={'-100px'}>
-            <Heading position='relative' fontSize={{base: '54px', md: '82px'}} zIndex={'2'}>I'm a Full-Stack Developer, building beautiful internet homes for all of your needs.</Heading>
+            <Heading position='relative' fontSize={{base: '48px', md: '82px'}} zIndex={'2'}>I'm a Full-Stack Developer, building professional grade websites that feel like home.</Heading>
             <Box overflowX={'hidden'} position='relative' top='-200px' right={{base: '-25%', md: '-50%'}} zIndex={'1'} fontSize={{base: '350px', sm: '500px'}}><FaHouseChimney color={'#8b2733'}/></Box>
         </Box>
         <Flex mb={'50px'} justifyContent={'center'} flexDirection={{base: 'column', md: 'row'}}>
             <Text fontSize={'18px'} opacity={'80%'} width={{base: '80%', md: '30%'}} mx={{base: 'auto', md: 'none'}} mr={{md: '50px'}} mb={{base: '15px', md: 'none'}}>
-                I help clients build the website of their dreams. 
+                I help clients construct the website of their dreams. 
                 Every square foot, custom-built. I handle everything, 
                 from database creation and management to front-end design and development.
             </Text>
