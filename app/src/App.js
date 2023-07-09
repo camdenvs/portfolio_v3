@@ -16,7 +16,7 @@ function App() {
       <Box display={'flex'} flexDirection={'column'} justifyContent={'space-between'} minH={'100vh'} overflowX={'hidden'}>
         <Routes>
           <Route 
-            path='/portfolio_v3/'
+            path='/portfolio_v3'
             element={<Home />}
           />
           <Route 
@@ -27,7 +27,7 @@ function App() {
             path='/portfolio_v3/resume'
             element={<Resume />}
           />
-          <Route path='*' element={<Navigate to='/portfolio_v3/'/>} />
+          <Route path='*' element={<Navigate to='/portfolio_v3'/>} />
         </Routes>
       <Footer />
       </Box>
