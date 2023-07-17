@@ -5,7 +5,7 @@
 Welcome to my portfolio, simple single-page application showing off my abilities and past projects.
 
 ## Installation
-Click this link to view the deployed application: [https://](https://camdenvs.github.io/portfolio_v3/)
+Click this link to view the deployed application: [https://camdenvs.github.io/portfolio_v3/](https://camdenvs.github.io/portfolio_v3/)
 
 ## Usage
 To use this application, click the provided link in the Installation section of the README. The page opens up to the 'Home' screen, where you will find a my email near the bottom of the page and some text that briefly explains the kind of work I do.
